@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', san-seriff;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    width: 90%;
+    margin: 0 5%;
+    
+}
+header{
+    height: 50px;
+    margin-top: 2em;
+}
+.logo{
+    width: 250px;
+    
+    
+    float: left;
+    
+}
+
+nav{
+    display: inline;
+    float: right;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: inherit;
+    
+}
+nav ul li{
+    float: left;
+    padding-left: 3em;
+}
+.book-btn{
+    
+    padding: .5em;
+    border-radius: .5em;
+    border: .05em solid #000;
+    
+}
+.home{
+    
+    text-align: center;
+   
+}
+.home img{
+    width: 80%;
+}
+.home h1{
+    font-size: 2em;
+}
+.content{
+    margin-top: 2em;
+    height: 1100px;
+}
+.content-img{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.content-img img{
+    width: 70%;
+    margin: 2em 3em;
+}
+.content-text{
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+.content-text p{
+    text-align: justify;
+}
+.bg-grn{
+    background-color: #5a8c79;
+    height: 320px;
+    padding: 2em;
+}
+.map-img{
+    width: 50%;
+
+}
+.map-img img{
+    float:left;
+
+}
+.map-info{
+    float: right;
+    width:50%;
+    margin-right:0;
+    padding:0;
+    color: #FFF;
+}
+.btn{
+    background-color: #e18355;
+    width: calc(50% - 1em);
+    display: block;
+    color: #fff;
+    border-radius: 20px;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 20%  ;
+    
+    text-align: center;
+}
+
+footer{
+    background-color: #000;
+    height: 75px;
+    
+    margin: 0;
+    padding: 0;
+}
+footer p{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2em;
+    color: #606060;
+}
+/*
+.map-img{
+    float: left;
+    
+}
+.map-img img{
+    width: 50%;
+    margin: 2.5em 6em;
+}
+.map-info{
+    float: right;
+    
+    height: 320px;
+    color: #FFF;
+}
+.map-info p{
+    text-align: justify;
+    width: 50%;
+}
+
+.btn{
+    background-color: #e18355;
+    color: #FFF;
+    border-radius: 2em;
+
+    
+    
+}
+*/
